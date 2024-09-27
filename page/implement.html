@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="bg-image"></div>
+    <div class="headerbar">
+        <ul>
+            <li><a href="../index.html">Requirement</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="implement.html" style="background-color: #04aa6d">Implement</a></li>
+        </ul>
+    
+    </div>
+    
+    
+    <div class="center">
+        <div class="title">
+            <img class="schoolLogo" src="../picture/schoolLogo.png" alt="School Logo">
+            <h2><em>Quản Lý Sinh Viên Khoa CNTT</em></h2>
+        </div>
+        
+
+        <div class="centerBody">
+            <div class="type_fieldset">
+                <fieldset>
+                    <legend><em>Khóa</em></legend>
+            
+                    <div class="typeBar">
+                        <ul>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><a href="#">Khóa 45</a></li>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><a href="#">Khóa 46</a></li>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><a href="#">Khóa 47</a></li>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><a href="#">Khóa 48</a></li>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><a href="#">Khóa 49</a></li>
+                            <li><i class="fa fa-book" aria-hidden="true"></i><a href="#">Khóa 50</a></li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </div>
+            
+        
+            <div class="detail_fieldset">
+                <fieldset>
+                    <legend><em>Thông Tin Sinh Viên</em></legend>
+            
+                    <div class="detail">
+                        <div class="name">
+                            <p>Tên sinh viên:</p>
+                            <input type="text" placeholder="Tên sinh viên">
+                        </div>
+            
+                        <div class="mssv">
+                            <p>MSSV:</p>
+                            <input type="text" placeholder="MSSV">
+                        </div>
+
+                        <div class="course">
+                            <p>Khóa:</p>
+                            <input type="text" placeholder="Khóa">
+                        </div>
+            
+                        <div class="class">
+                            <p>Lớp:</p>
+                            <input type="text" placeholder="Lớp">
+                        </div>
+            
+                        <div class="button">
+                            <input type="button" id="addStudent" value="Thêm sinh viên">
+            
+                            <input type="button" id="editStudent" value="sửa sinh viên">
+            
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            
+        </div>
+        
+        <div class="listBook">
+            <fieldset>
+                <legend><em>Danh sách</em></legend>
+        
+                <div class="search">
+                    <input type="text" id="searchBar" placeholder="Mã số sinh viên">
+                    <input type="button" value="Tìm kiếm" id="searchButton">
+                </div>
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>Tên sinh viên</th>
+                        <th>MSSV</th>
+                        <th>Khóa</th>
+                        <th>Lớp</th>
+                        <th>Thao tác</th>
+                    </tr>
+        
+                    <tr>
+                        <td>1</td>
+                        <td>Nguyễn Văn A
+                        </td>
+                        <td>19130143</td>
+                        <td>45</td>
+                        <td>DH19DTA</td>
+                        <td>
+                            <input type="button" value="Xóa">
+                            <input type="button" value="Sửa">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nguyễn Văn B
+                        </td>
+                        <td>19130256</td>
+                        <td>45</td>
+                        <td>DH19DTB</td>
+                        <td>
+                            <input type="button" value="Xóa">
+                            <input type="button" value="Sửa">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>

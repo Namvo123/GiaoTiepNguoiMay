@@ -240,3 +240,19 @@ td {
 }
 
 
+/*requirement*/
+
+.requirement_detail p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.design_detail {
+    width: 100%;
+
+
+}
+
+.design_detail img {
+    width: 728px;
+}
